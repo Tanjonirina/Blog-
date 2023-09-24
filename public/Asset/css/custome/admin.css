@@ -1,0 +1,145 @@
+body{
+    background: linear-gradient(
+        to left,
+        rgb(252, 161, 161), rgb(196, 229, 241)
+    );
+ 
+}
+
+
+.navbar-toggler span{
+    color: #77f0bd;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    
+}
+.nav-item .nav-link:hover{
+    background: #ebbcf0b7;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+    
+   
+}
+#navbar form button{
+    background: orange;
+    color: white;
+    border: none;
+}
+
+.sidebar li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* padding: 50px 5px 1px 6px; */
+  
+
+  
+}
+.side{
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: #000000a2;
+}
+.sidebar a{
+    justify-content: center;
+}
+/* .sidebar a:hover{
+    background: #77f0bd;
+    padding: 10px;
+   
+   border-radius: 45px;
+} */
+.nav-S{
+    margin-top: 50px;
+}
+/* Navbar End */
+
+/* card */
+.card{
+    padding: 10px;
+    margin-left: 60px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+   
+}
+.card h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card i{
+    color: #2e4857;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+.card a{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.card h5{
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(250, 250, 250);
+    height: 70vh;
+    border-radius: 50px;
+    margin-left: 20px;
+   
+}
+/* .nav-S{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+}
+.dashboard a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* card */
+
+/* table */
+.table{
+    margin-top: 30px;
+}
+/* table */
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+}

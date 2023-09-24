@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    background-color: rgb(27, 27, 27);
+   
+}
+.carousel img{
+    height: 600px;
+}
+.pub{
+   margin-left: 50%;
+   color: aliceblue;
+   margin-top: -400px;
+   
+}
+.pub span{
+    color: aqua;
+}
+.paragraph{
+    color: aliceblue;
+    margin-left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heander{
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    padding: 30px;
+}
+.inner-box{
+    background: rgb(255, 255, 255,0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.inner-box img{
+    border-radius: 10px;
+    border-bottom-left-radius:0px ;
+    border-bottom-right-radius: 0px;
+    transition:1s all ease-in-out   ;
+}
+.car-img{
+    overflow: hidden;
+    width: 100%;
+   height: 18rem;
+}
+.car-img:hover img {
+  transform: scale(1.5);
+}
+
+.is-hover{
+    transform: translate(-12px);
+}
+
+.card img{
+    height: 200px;
+}
+.carousel-indicators{
+    left:0;
+    top: auto;
+    bottom: -9px;
+}
+.carousel-indicators li{
+    background: #b3b0b0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators .active{
+   background: #f8325d; 
+}
+
+.curse{
+    left:0;
+    top: auto;
+    bottom: -50px;
+}
+
+
+/* section icon */
+.icon i{
+  color: aliceblue;
+  padding: 40px;
+  background: rgb(255, 255, 255,0.2);
+  border-radius: 100%;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  cursor: pointer;
+  margin-left: 38%;
+}
+
+
+
+.icon h5{
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.icon p{
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+/* section icon */
+
+/* About */
+.about{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    color:white;
+    
+   
+}
+.image img{
+    border-left: 6px solid rgb(0, 225, 255);
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 90%;
+    width: 100%;
+}
+/* About */
+
+/* testi */
+.testi{
+    color: white;
+}
+.img{
+    width: 100px;
+    height: 50px;
+    /* margin-left: -10px; */
+   
+}
+.tex{
+   margin-top: -50px;
+   margin-left: 85px;
+  
+ text-decoration: none;
+
+}
+.par{
+    margin-left: 100px ;
+}
+
+/* testi */
+
+/* footer */
+.footer{
+  background-image: url(../../image/large.jpeg);
+
+  background-repeat: no-repeat, repeat;
+
+}
+.hea{
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    color: white;
+}
+.icone i{
+  color: white;
+  padding: 30px;
+  background-color: #919191;
+  border-radius: 100%;
+  margin: 20px;
+  outline: #fdfffd solid 2px;
+  
+}
+.txt{
+    padding: 10px;
+    margin-left:100px;
+    text-align: start;
+    margin-top: -98px;
+}
+.cardf{
+    background: rgb(255, 255, 255,0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    overflow: hidden;
+    margin-top: 30px;
+   text-align: center;
+
+}
+.cardf header{
+  
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.cardf button{
+  
+   margin: 50px;
+    text-align: center;
+ }
+/* footer */
